@@ -1,26 +1,34 @@
+#+TITLE: Progress tracker
+#+TODO: TODO(t) | DOING(o) | DONE(d)
+
 * tetrjs game
 
   Implement jstris-like tetris game, with visuals and sound.
 
-* TODO [0/2] Project Structure
+* TODO [1/8] Project Structure
   DEADLINE: <2020-04-10 Fri>
 
-  - [ ] API
-	- [ ] GraphQL configuration
-	- [ ] Apollo Server configuration
-	- [ ] Mongodb configuration
-	  - [ ] Define initial database structure
-  - [ ] Front-end
-	- [ ] Research what canvas library to use
-	  - [ ] Configure it.
-
-* Prototype
-  DEADLINE: <2020-04-12 Sun>
-
-  Design a sleek interface for the game.
+  - [X] Vue.js configuration
+  - [ ] Three.js configuration
+  - [ ] Canvas placement (define its height X width)
+  - [ ] Automatic resizing (canvas should change its width)
+  - [ ] Engine
+	- [ ] Tetromino structure (matrixes of each piece)
+	- [ ] Colors
+	- [ ] Sounds
+	- [ ] Rotation logic
+	- [ ] Score system
+	  - [ ] Combo
+	  - [ ] Game over
+	  - [ ] Win game
+  - [ ] Ghost pieces
+  - [ ] Next piece preview
+  - [ ] User settings
 
 * Features
-** Requirements
+** DOING Prototype
+   DEADLINE: <2020-04-12 Sun>
+** Chosen requirements
 
    - [ ] Implementação de Sons e Cores
    - [ ] Previsão de próxima peça
@@ -28,12 +36,12 @@
    - [ ] Contabilização de Pontos e Game Over
    - [ ] Poder habilitar peça fantasma
 
-** Might be implemented
+** Might be implemented in the future
 *** TODO Theming
 
-   Ability to customize block colors, background and other stuff.
+	Ability to customize block colors, background and other stuff.
 
 *** TODO Multiplayer
 
-   Ability to create or join random rooms.
-   Endpoint: =room/<id>=
+	Ability to create or join random rooms.
+	Endpoint: =room/<id>=
