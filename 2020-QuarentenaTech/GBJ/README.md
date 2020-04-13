@@ -9,8 +9,7 @@ A canvas tetris game with a sleek UI.
   - [X] Vue.js configuration
   - [ ] Mockup/prototype
   - [ ] Three.js configuration
-  - [ ] Canvas placement (define its height X width)
-  - [ ] Automatic resizing (canvas should change its width)
+  - [ ] Automatic resizing
   - [ ] Engine
 	- [ ] Tetromino structure (matrixes of each piece)
 	- [ ] Colors
